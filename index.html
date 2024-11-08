@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="shortcut icon" href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Horror Hangman</h1>
+        <div id="gallows">
+            <img id="hangmanImage" src="img/hangman0.png" alt="Hangman Image">
+        </div>
+        <div id="word"></div>
+        <div id="controls">
+            <button id="guessWordButton" class="button" onclick="guessWord(game)">Guess Word</button>
+            <input type="text" id="guessBox" placeholder="Enter a letter or word guess">
+            <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        </div>
+        <form action="https://mitchum.blog/sorry-for-offending-subscribe/">
+            <button id="long"class="button">How Dare You Make Light Of Capital Punishment</button>
+        </form>
+        <div id="guesses"></div>
+        <h5><a href="https://mitchum.blog/how-to-build-hangman-with-javascript/">Back To Blog</a></h5>
+    </main>
+    <script src="hangman.js"></script>
+</body>
+</html>
